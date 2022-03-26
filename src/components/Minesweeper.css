@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(200deg, rgb(60, 14, 102), rgb(16, 70, 133));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .field {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, "Arial Narrow Bold", sans-serif;
+    font-weight: bolder;
+}
+.container .field img {
+    width: 50%;
+    height: 50%;
+}
+
+.container .field.hidden,
+.container .field.locked {
+    border: solid 10px #fff;
+    border-left-color: #ccc;
+    border-bottom-color: #888;
+    border-right-color: #ddd;
+    background-image: linear-gradient(#efefef, #fff);
+}
+.container .field.visible {
+    background-image: linear-gradient(#ccc, #fff);
+}
+.container .field.visible.val_X {
+    background-image: linear-gradient(#c26a6a, rgb(235, 217, 202));
+}
+.container .field.visible.val_1 {
+    color: #0a3abd;
+}
+.container .field.visible.val_2 {
+    color: #08863d;
+}
+.container .field.visible.val_3 {
+    color: #851111;
+}
+.container .field.visible.val_4 {
+    color: #181153;
+}
+.container .field.visible.val_5 {
+    color: #4a4857;
+}
+.container .field.visible.val_6 {
+    color: #787686;
+}
+.container .field.visible.val_7 {
+    color: #485d61;
+}
+.container .field.visible.val_8 {
+    color: #2b545c;
+}
