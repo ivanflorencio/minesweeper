@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Minesweeper
+<img width="1699" alt="Screen Shot 2022-03-28 at 10 08 20 PM" src="https://user-images.githubusercontent.com/3957309/160512206-2f6dcc99-dc98-45c8-b9d3-2cf3a986dac5.png">
+<img width="1699" alt="Screen Shot 2022-03-28 at 10 07 53 PM" src="https://user-images.githubusercontent.com/3957309/160512250-37cbf398-2b6d-4b00-ba27-82c4f035caeb.png">
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
